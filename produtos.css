@@ -1,0 +1,1372 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    flex: 1 1 100vw;
+    background-color: #f1f1ce;
+ 
+}
+
+.barra-azul {
+    display: flex;
+    flex: 1 1 200vw;
+    height: 100px;
+    width: auto;
+    background: #273185;
+    position: relative;
+    display: auto;
+    align-items: center;
+}
+
+
+.barra-lateral{
+        position: absolute; 
+         top: -30px;
+        left: 0;
+        width: 200px; 
+        padding: 20px;
+        height: 200vh ; 
+        overflow: hidden;
+        background-color: #273185; 
+        border-radius: 0px;
+}
+
+
+.barra-lateral h2{
+    margin-top: 130px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: white;
+    padding: 0ch;
+
+}
+
+.barra-lateral h3{
+    font-family: "Poppins";
+    font-size: 17px;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+   
+}
+
+.barra-lateral img{
+    width: 190px;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+ 
+.barra-lateral h4{
+    font-family: "Poppins";
+    color: white;
+    font-weight: normal;
+    padding: 13px;
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+
+.footer-final h6{
+    font-family: "Poppins";
+    font-weight: normal;
+    color: white;
+    font-size: 15px;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+
+img.patinha{
+    width: 50px;
+    position: relative;
+    top: 158px;
+    left: 125px;
+    transform: rotate(10deg);
+    
+}
+
+
+
+
+h1 {
+    position: relative;
+    font-family: "Allura", cursive;
+    font-size: 70px;
+    color: rgb(255, 251, 251);
+    right: -120px;
+    padding: 10px;
+    top: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+ul {
+    position: fixed;
+    margin-left: 1410px;
+}
+
+ ul{
+            text-align: justify;
+            list-style: none;
+            margin-top: -0px;
+            margin-left: 1700px;
+             font-size: 37px;
+            font-family: "Poppins";
+        }
+
+a {
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-size: 37px;
+    font-family: "Poppins";
+    text-align: justify;
+    text-decoration: none;
+    padding: 0px;
+    top: 100px;
+    color: #ffffff;
+    top: -40px;
+}
+
+main {
+    flex: 20 1 100px;
+    height: calc(100vh - 224px);
+    padding-left: 1px;
+    padding-top: 40px;
+    display: block;
+}
+
+main h2 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    left: 550px;
+    font-weight: normal;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+
+
+
+
+.grupo{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 890px;
+    
+    
+
+}
+
+.grupo img{
+    width: 380px;
+    padding: 30px;
+    border-radius: 40px;
+    
+    ;
+}
+
+
+
+.quadrados{
+   display: flex;
+    gap: 280px;
+    margin-left: -2383px; 
+    margin-top: 578px;
+}
+
+.quadrado , .quadrado2 , .quadrado3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 613px;
+    width: 120px;
+    background-color: #ff0000;
+    border-radius: 3px;
+    top: 21px;
+   
+
+   
+}
+
+
+
+.quadrado h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.quadrado2 h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.quadrado3 h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 21px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+div.coleira-rosa h2 {
+    position: relative;
+    color: #000000;
+    top: 1440px;
+    font-weight: normal;
+    right: 1920px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+div.coleira-rosa h3 {
+    position: relative;
+    color: #888383;
+    font-weight: normal;
+    top: 1440px;
+    right: 1875px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+div.coleira-rosa h4 {
+    position: relative;
+    color: #000000;
+    font-weight: normal;
+    top: 1440px;
+    right: 1875px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+
+
+.btn-comprar{
+    background-color: #5cad6a;
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 40px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 1450px;
+    margin-left: -1900px;
+
+}
+
+.coleira-rosa i{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    right: 1720px;
+    top: -30px;
+    cursor: pointer;
+
+}
+
+btn-comprar:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+
+
+
+div.coleira-moderna h2{
+    position: relative;
+    color: #000000;
+    top: 1440px;
+    font-weight: normal;
+    right: 1760px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+div.coleira-moderna h3 {
+    position: relative;
+    color: #888383;
+    font-weight: normal;
+    top: 1450px;
+    right: 1705px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+div.coleira-moderna h4 {
+    position: relative;
+    color: #000000;
+    font-weight: normal;
+    top: 1450px;
+    right: 1705px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+
+
+
+
+.btn-comprar1{
+    background-color: #5cad6a;
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 40px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 1479px;
+    margin-left: -1730px;
+}
+
+btn-comprar1:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar1:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-moderna i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    right: 1550px;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+div.coleira-azul h2 {
+    position: relative;
+    color: #0f0000;
+    top: 1430px;
+    font-weight: normal;
+    right: 1550px;
+    font-size: 20px;
+    font-family: "Poppins";
+    white-space: nowrap;
+}
+
+div.coleira-azul h3 {
+    position: relative;
+    color: #888383;
+    font-weight: normal;
+    top: 1440px;
+    right: 1525px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+div.coleira-azul h4 {
+    position: relative;
+    color: #000000;
+    font-weight: normal;
+    top: 1440px;
+    right: 1528px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+
+.btn-comprar2{
+    background-color: #5cad6a;
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 40px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 1479px;
+    margin-left: -1550px;
+}
+
+btn-comprar2:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar2:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-azul i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    right: 1370px;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+
+div.coleira-branca h2{
+    position: relative;
+    color: #000000;
+    top: 1440px;
+    font-weight: normal;
+    right: 1330px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+div.coleira-branca h3 {
+    position: relative;
+    color: #000000;
+    font-weight: normal;
+    top: 1450px;
+    right: 1290px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.btn-comprar3{
+    background-color: #5cad6a;
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 40px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 1479px;
+    margin-left: -1310px;
+}
+
+btn-comprar3:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar3:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-branca i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    right: 1130px;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+
+
+
+div.coleira-classica h2{
+    position: relative;
+    color: #000000;
+    top: 1430px;
+    font-weight: normal;
+    right: 1130px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+div.coleira-classica h3 {
+    position: relative;
+    color: #000000;
+    font-weight: normal;
+    top: 1440px;
+    right: 1103px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.btn-comprar4{
+    background-color: #5cad6a;
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 40px;
+    font-size: 19px;
+    border: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 1470px;
+    margin-left: -1120px;
+}
+
+btn-comprar4:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar4:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-classica i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    right: 930px;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.link-cor1:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #86aab8;
+}
+
+.link-cor:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #91ccc7;
+}
+
+.link-corzinha:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #8d97c4;
+}
+
+
+@media (max-width: 1366px){
+    * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    flex: 1 1 100vw;
+    background-color: #f1f1ce;
+ 
+}
+
+.barra-azul {
+    display: flex;
+    flex: 1 1 200vw;
+    height: 100px;
+    width: auto;
+    background: #273185;
+    position: relative;
+    display: auto;
+    align-items: center;
+}
+
+
+.barra-lateral{
+        position: absolute; 
+         top: -30px;
+        left: 0;
+        width: 200px; 
+        padding: 20px;
+        height: 200vh ; 
+        overflow: hidden;
+        background-color: #273185; 
+        border-radius: 0px;
+}
+
+
+.barra-lateral h2{
+    margin-top: 130px;
+    font-family: "Poppins";
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    padding: 0ch;
+
+}
+
+.barra-lateral h3{
+    font-family: "Poppins";
+    font-size: 17px;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+   
+}
+
+.barra-lateral img{
+    width: 160px;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+ 
+.barra-lateral h4{
+    font-family: "Poppins";
+    color: white;
+    font-weight: normal;
+    padding: 13px;
+    font-size: 17px;
+    margin-left: -10px;
+}
+
+
+.footer-final h6{
+    font-family: "Poppins";
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+img.patinha{
+    width: 40px;
+    position: relative;
+    top: 8px;
+    left: 125px;
+    transform: rotate(10deg);
+    
+}
+
+
+
+
+h1 {
+    position: relative;
+    font-family: "Allura", cursive;
+    font-size: 70px;
+    color: rgb(255, 251, 251);
+    right: -120px;
+    padding: 10px;
+    top: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+ ul{
+            text-align: justify;
+            list-style: none;
+            margin-top: -0px;
+            margin-left: 650px;
+             font-size: 37px;
+            font-family: "Poppins";
+        }
+
+a {
+    list-style: none;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-size: 37px;
+    font-family: "Poppins";
+    text-align: justify;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 31px;
+    top: 100px;
+    color: #ffffff;
+    top: -40px;
+}
+
+main {
+    flex: 20 1 100px;
+    height: calc(100vh - 224px);
+    padding-left: 1px;
+    padding-top: 40px;
+    display: block;
+}
+
+main h2 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    left: 250px;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 0px;
+}
+
+
+
+
+
+
+.grupo{
+  margin-left: -30px;
+  padding: 0px;
+
+    
+    
+
+}
+
+.grupo img{
+    width: 200px;
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: -200px
+    ;
+}
+
+
+
+.quadrados{
+   display: flex;
+    gap: 120px;
+    margin-left: -1570px; 
+    margin-top: 19px;
+}
+
+.quadrado , .quadrado2 , .quadrado3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 613px;
+    width: 100px;
+    background-color: #ff0000;
+    border-radius: 3px;
+    top: 260px;
+   
+
+   
+}
+
+
+
+.quadrado h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.quadrado2 h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.quadrado3 h2 {
+    color: #ffffff;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+div.coleira-rosa h2 {
+margin-left: 840px;
+margin-top: -310px;
+font-size: 18px;
+}
+
+div.coleira-rosa h3 {
+    color: #888383;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 820px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+div.coleira-rosa h4 {
+    color: #000000;
+    font-weight: normal;
+    margin-left: 820px;
+    right: 1875px;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+
+
+ .btn-comprar{
+    margin-left: -1070px;;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 18px;
+   
+
+
+ }
+
+
+
+    
+
+.coleira-rosa i{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 27px;
+    right: 920px;
+    top: -30px;
+    cursor: pointer;
+
+}
+
+btn-comprar:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+
+
+div.coleira-moderna h2{
+    margin-top: -290px;
+    color: #000000;
+    font-weight: normal;
+    margin-left: -120px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+div.coleira-moderna h3 {
+    margin-left: -170px;
+    color: #888383;
+    font-weight: normal;
+    margin-top: -10px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+div.coleira-moderna h4 {
+    margin-left: -170px;
+    color: #000000;
+    font-weight: normal;
+    
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+
+
+
+
+.btn-comprar1{
+position: relative ;
+    background-color: #55ac64;
+     right: 160px;
+    top: -15px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+btn-comprar1:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar1:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-moderna i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 28px;
+    right: 1750px;
+    top: -50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+div.coleira-azul h2 {
+    color: #0f0000;
+    margin-top: -290px;
+    margin-left: -175px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+div.coleira-azul h3 {
+    
+    color: #888383;
+    font-weight: normal;
+    margin-left: -175px;
+    text-decoration: line-through;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+div.coleira-azul h4 {
+    color: #000000;
+    font-weight: normal;
+    margin-left: -175px;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+
+.btn-comprar2{
+    position: relative ;
+    background-color: #55ac64;
+     right: 170px;
+    top: -5px;
+    padding: 10px 25px;
+ 
+}
+
+btn-comprar2:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar2:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-azul i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 27px;
+    right: 1580px;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+div.coleira-branca h2{
+   
+    color: #000000;
+    margin-top: -290px;
+    font-weight: normal;
+    margin-left: -200px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+div.coleira-branca h3 { 
+    color: #000000;
+    font-weight: normal;
+    margin-left: -230px;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.btn-comprar3{
+position: relative ;
+    background-color: #55ac64;
+     left: -220px;
+    top: -20px;
+    padding: 10px 25px;
+    font-size: 18px;
+
+}
+
+btn-comprar3:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar3:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-branca i {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #000000;
+    font-size: 27px;
+    margin-left: -260px;
+    top: -50px;
+    cursor: pointer;
+}
+
+
+
+
+
+div.coleira-classica h2{
+    color: #000000;
+    margin-left: -210px;
+    margin-top: -310px;
+    font-weight: normal;
+
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+div.coleira-classica h3 {
+    color: #000000;
+    font-weight: normal;
+    padding: 10px;
+    margin-left: -210px;
+    margin-top: -15px;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.btn-comprar4{
+position: relative ;
+    background-color: #55ac64;
+     left: -200px;
+    top: 5px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+btn-comprar4:hover{
+     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.efeito-hover{
+    transition: 0.15 ease;
+
+}
+
+.efeito-hover:hover{
+    transition: 0.5s;
+    transform: translate;
+    box-shadow: 0 10px 12px rgb(152, 233, 168);
+
+
+}
+
+.btn-comprar4:active {
+    transform: scale(0.92); /* dá aquela “afundada” gostosa */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+.coleira-classica i {
+    display: flex;
+    flex-direction: column;
+    
+    color: #000000;
+    font-size: 27px;
+    top: -30px;
+    margin-left: -250px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.link-cor1:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #86aab8;
+}
+
+.link-cor:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #91ccc7;
+}
+
+.link-corzinha:hover {
+    background-color: #4659af;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 10px 12px #8d97c4;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,217 @@
+* {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            overflow: hidden;
+            overflow-x: hidden;
+            display: flex; 
+            flex-wrap: wrap;
+            margin: 0px;
+            flex: 1 1 100vw;
+            background-color: #f1f1ce;
+        }
+
+        main, aside, footer {
+            background: #f1f1ce;
+            display: flex;
+            margin: 3px;
+
+        }
+        
+        header { 
+            display: flex;
+            flex: 1 1 200vw;
+            height: 100px;
+            width: auto;
+            background: #273185;
+            position: relative;
+            display: auto; 
+            align-items: center;
+
+        }
+
+
+
+         h1{
+    position: relative;
+    font-family: "Allura", cursive;
+    font-size: 70px;
+    color: rgb(255, 251, 251);
+    right: -135px;
+    padding: 10px;
+    top: 0px;
+    white-space: nowrap;
+    cursor: pointer;         
+            }
+
+             .barra-azul a{
+                text-decoration: none;
+             }
+
+          ul{
+            text-align: justify;
+            list-style: none;
+            margin-left: 1350px;
+             font-size: 37px;
+            font-family: "Poppins";
+        
+          
+             }
+
+              a{ 
+            text-decoration: none;
+            padding: 30px;
+            margin-left: 60px;
+            color: rgb(245, 245, 245);
+            top: 20px;
+        }
+
+        main{
+        flex: 20 1 100px;
+    height: calc(100vh - 224px);
+    padding-left: 1px;
+    padding-top: 40px;
+    display: block;
+   
+        }
+
+
+        main p{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    margin-left: 100px;
+    font-weight: normal;
+    font-size: 40px;
+    padding: 20px;
+
+
+        }
+
+        main h1{
+            color: black;
+            font-size: 40px;
+            margin-top: -50px;
+            margin-left:850px;
+            font-family: "Poppins"
+            
+            
+        }
+
+        main #icone1{
+            position: relative;
+            color: black;
+            left: 940px;
+            font-size: 40px;
+            top: 15px;
+            
+        }
+
+        main h2{
+            color: black;
+            font-size: 40px;
+            margin-top: 40px;
+            padding-top: 20px;
+            margin-left:990px;
+            font-family: "Poppins"
+            
+            
+        }
+
+        main #icone2{
+            position: relative;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            left: 935px;
+            top: -330px;
+            
+        }
+
+
+        .link-cor1:hover{
+            background-color: #4659af;
+            border-radius: 20px;
+            padding: 20px 20px;
+
+            transition: 0.5s;
+            box-shadow:0 10px 12px #86aab8;
+}
+
+            .link-cor:hover{
+            background-color: #4659af;
+            border-radius: 20px;
+            padding: 20px 20px;
+
+            transition: 0.5s;
+            box-shadow:0 10px 12px #91ccc7;
+            }
+
+            .link-corzinha:hover{
+                background-color: #4659af;
+            border-radius: 20px;
+            padding: 20px 20px;
+
+            transition: 0.5s;
+            box-shadow:0 10px 12px #8d97c4;
+
+            }
+            
+    @media (max-width: 1366px){
+        
+        h1{
+            position: relative;
+            left: -10px;
+        }
+
+         main p{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    margin-left: 100px;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 20px;
+         }
+
+         
+        main h1{
+            color: #1100ff;
+            font-size: 30px;
+            margin-top: -40px;
+            margin-left:500px;
+            font-family: "Poppins";
+        }
+
+
+        main h2{
+            color: #1100ff;
+            font-size: 30px;
+            margin-top: -2px;
+            white-space: nowrap;
+            margin-left: 500px;
+        }
+            
+        main #icone1{
+     margin-left: -500px;
+
+        }
+
+
+
+        main #icone2{
+            position: absolute;
+            left: 34%; /* exemplo responsivo — ajuste pra sua necessidade */
+            transform: translateX(-50%);
+            top: 430px;
+        
+  
+        }
+
+        
+
+
+
+    }
+
